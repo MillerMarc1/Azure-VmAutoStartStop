@@ -27,9 +27,6 @@ This project is helpful in a development environment where VMs do not need to ru
 1. Deploy a Resource Group in which the function app will be placed.
 2. Within the Resource Group created in step 1, create a function app.
     - You will likely want to use a "Consumption (Serverless)" plan. For more information see [-Function App Plans]("https://docs.microsoft.com/en-us/azure/azure-functions/functions-scale?WT.mc_id=Portal-WebsitesExtension")
-    - You deployment may look something like this: 
-        
-        ![](screenshots\functionAppDeployment.png =300x)
  
 3. After your function app has been created you need to create a managed identity. 
     - Since the function app will be starting and stopping VMs, give it appropriate permissions.
